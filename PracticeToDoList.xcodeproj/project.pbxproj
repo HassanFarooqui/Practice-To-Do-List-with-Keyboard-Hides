@@ -12,6 +12,8 @@
 		A5A7671D2000837000698780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A7671B2000837000698780 /* Main.storyboard */; };
 		A5A7671F2000837000698780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A7671E2000837000698780 /* Assets.xcassets */; };
 		A5A767222000837000698780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A767202000837000698780 /* LaunchScreen.storyboard */; };
+		A5A7672A200095C600698780 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A76729200095C600698780 /* TableViewCell.swift */; };
+		A5A7672C2000960E00698780 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A7672B2000960E00698780 /* ToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A5A7671E2000837000698780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5A767212000837000698780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5A767232000837000698780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A76729200095C600698780 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		A5A7672B2000960E00698780 /* ToDoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				A5A7671E2000837000698780 /* Assets.xcassets */,
 				A5A767202000837000698780 /* LaunchScreen.storyboard */,
 				A5A767232000837000698780 /* Info.plist */,
+				A5A76729200095C600698780 /* TableViewCell.swift */,
+				A5A7672B2000960E00698780 /* ToDoViewController.swift */,
 			);
 			path = PracticeToDoList;
 			sourceTree = "<group>";
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					A5A767132000837000698780 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8GWSL85966;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A7672C2000960E00698780 /* ToDoViewController.swift in Sources */,
+				A5A7672A200095C600698780 /* TableViewCell.swift in Sources */,
 				A5A7671A2000837000698780 /* ViewController.swift in Sources */,
 				A5A767182000837000698780 /* AppDelegate.swift in Sources */,
 			);
@@ -258,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8GWSL85966;
 				INFOPLIST_FILE = PracticeToDoList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HigherVisibility.PracticeToDoList;
@@ -270,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8GWSL85966;
 				INFOPLIST_FILE = PracticeToDoList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HigherVisibility.PracticeToDoList;
@@ -297,6 +308,7 @@
 				A5A767282000837000698780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
